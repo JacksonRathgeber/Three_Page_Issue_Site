@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: bold;
+	margins: 0px;
+	padding: 0px;
+/*	background-color: lightskyblue;*/
+}
+
+a {
+
+}
+
+a:hover {
+	color: yellow;
+
+}
+
+.homeLeft {
+	height: 100%;
+	width: 50%;
+}
+
+.upperMenu {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	white-space: nowrap;
+	background-color: cornflowerblue;
+}
+
+.upperMenuItem {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-size: 22px;
+}
+
+
+.mainTitle {
+	font-size: 55px;
+	font-family: impact;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+
+}
+
+.subtitle {
+	font-size: 22px;
+	font-family: futura;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-bottom: 30px;
+	color: dimgray;
+}
+
+.bodyText {
+	font-size: 18px;
+	font-family: futura;
+	font-weight: lighter;
+	padding-left: 10px;
+	margin: 10px;
+	color: black;
+/*	text-indent: 50px;*/
+	width: 50%%;
+}
+
+.hotBackground {
+	background-image: linear-gradient(lightgray,red);
+}
+
+.coldBackground {
+	background-image: linear-gradient(lightgray,dodgerblue);
+}
+
+.mainBackground {
+	background-image: linear-gradient(to bottom right, royalblue, lightgrey, red);
+}
